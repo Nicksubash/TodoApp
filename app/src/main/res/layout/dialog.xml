@@ -26,11 +26,12 @@
     </RelativeLayout>
 
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/btn_addmore"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="20dp"
-        android:gravity="center"
+        android:layout_centerHorizontal="true"
         android:padding="15dp"
         android:text="Add More"
         android:textSize="20sp" />
